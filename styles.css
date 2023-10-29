@@ -2,3 +2,7 @@
     margin: 0px;
     padding: 0px;
 }
+
+#gallery .book-item img {
+    max-height: 250px;
+}
