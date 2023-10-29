@@ -3,6 +3,18 @@
     padding: 0px;
 }
 
-#gallery .book-item img {
+.book-item img {
     max-height: 250px;
+}
+
+.book-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+#gallery {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
 }
